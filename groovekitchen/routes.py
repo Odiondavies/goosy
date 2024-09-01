@@ -17,7 +17,6 @@ from groovekitchen.forms import FormData
 def add_no_cache_header(response):
     response.headers['Cache-Control'] = 'no-cache, no-store, must-revalidate'
     return response
-
 #
 # flow = Flow.from_client_secrets_file(
 #     client_secrets_file=client_secrets_file,
